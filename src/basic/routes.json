@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "title": "首页",
+      "path": "/"
+    },
+    {
+      "title": "链表",
+      "path": "/linked-list"
+    }
+  ]
+}

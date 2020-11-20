@@ -1,0 +1,19 @@
+.layouts {
+  display: flex;
+  height: 100%;
+  background-color: #f7f6f4;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.layouts .layouts--sidebar {
+  width: 240px;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 7px #f7f6f4;
+}
+
+.layouts .layouts--content {
+  margin-left: 20px;
+}
