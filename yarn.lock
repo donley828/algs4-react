@@ -7291,6 +7291,11 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   resolved "http://192.168.1.172:8081/repository/npm-all/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha1-PrXtYmInVteaXw4qIh3+utdcL34=
 
+monaco-editor@*:
+  version "0.21.2"
+  resolved "http://192.168.1.172:8081/repository/npm-all/monaco-editor/-/monaco-editor-0.21.2.tgz#37054e63e480d51a2dd17d609dcfb192304d5605"
+  integrity sha1-NwVOY+SA1Rot0X1gnc+xkjBNVgU=
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "http://192.168.1.172:8081/repository/npm-all/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -9043,6 +9048,14 @@ react-is@^17.0.1:
   version "17.0.1"
   resolved "http://192.168.1.172:8081/repository/npm-all/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha1-WzUxvXamRaTJ+25pPtNkGeMwEzk=
+
+react-monaco-editor@^0.40.0:
+  version "0.40.0"
+  resolved "http://192.168.1.172:8081/repository/npm-all/react-monaco-editor/-/react-monaco-editor-0.40.0.tgz#f1b021b32952cfc63a4bf2661fd20f61b2b8309f"
+  integrity sha1-8bAhsylSz8Y6S/JmH9IPYbK4MJ8=
+  dependencies:
+    monaco-editor "*"
+    prop-types "^15.7.2"
 
 react-refresh@^0.8.3:
   version "0.8.3"

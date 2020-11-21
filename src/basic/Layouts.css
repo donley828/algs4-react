@@ -2,7 +2,7 @@
   display: flex;
   height: 100%;
   background-color: #f7f6f4;
-  padding: 24px;
+  padding: 16px;
   box-sizing: border-box;
 }
 
@@ -14,6 +14,19 @@
   box-shadow: 1px 2px 7px #f7f6f4;
 }
 
-.layouts .layouts--content {
-  margin-left: 20px;
+.layouts .layouts--main {
+  margin-left: 16px;
+  flex: 1;
+}
+
+.layouts--main .layouts--main__header {
+  height: 64px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.layouts--main .layouts--main__content {
+  height: calc(100% - 64px - 16px);
+  display: flex;
 }

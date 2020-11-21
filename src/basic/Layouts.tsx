@@ -12,12 +12,17 @@ export default function Layouts({ children }: LayoutsProps) {
   return (
     <div className="layouts">
       <div className="layouts--sidebar">
-        {routes.map((item) => (
-          <Link to={item.path}>{item.title}</Link>
+        {routes.map((item, key) => (
+          <Link key={`link-${key}`} to={item.path}>
+            {item.title}
+          </Link>
         ))}
       </div>
 
-      <div className="layouts--content">{children}</div>
+      <div className="layouts--main">
+        <div className="layouts--main__header"></div>
+        <div className="layouts--main__content">{children}</div>
+      </div>
     </div>
   );
 }
