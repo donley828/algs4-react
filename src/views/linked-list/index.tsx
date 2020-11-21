@@ -1,11 +1,10 @@
 import React from 'react';
 
-import { CodeEditor } from '../../components';
+import { CodeEditor } from '@/components';
 
 export default function LinkedList() {
   return (
     <>
-      <div></div>
       <div
         style={{
           backgroundColor: '#ffffff',
@@ -16,6 +15,16 @@ export default function LinkedList() {
         }}
       >
         <CodeEditor></CodeEditor>
+      </div>
+      <div
+        style={{
+          flex: 1,
+          backgroundColor: '#ffffff',
+          borderRadius: '20px',
+          marginLeft: '16px',
+        }}
+      >
+        s
       </div>
     </>
   );

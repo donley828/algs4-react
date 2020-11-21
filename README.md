@@ -1,7 +1,7 @@
 ![algs4-react](https://socialify.git.ci/donley828/algs4-react/image?description=1&descriptionEditable=%E3%80%8A%E7%AE%97%E6%B3%95%E3%80%8B%E7%AC%AC%E5%9B%9B%E7%89%88%E7%9A%84%E5%8F%AF%E8%A7%86%E5%8C%96%20React%20%E5%AE%9E%E7%8E%B0%0A&language=1&owner=1&pattern=Brick%20Wall&stargazers=1&theme=Light)
 # algs4-react
 
-Visual React implementation of the fourth edition of Algorithms.
+Visualization implementation of the Algorithms Fourth Edition with React.
 
 ## Available Scripts
 

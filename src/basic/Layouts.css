@@ -14,6 +14,19 @@
   box-shadow: 1px 2px 7px #f7f6f4;
 }
 
+.layouts--sidebar .layouts--sidebar__header {
+  height: 64px;
+  margin-bottom: 16px;
+  padding: 12px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
 .layouts .layouts--main {
   margin-left: 16px;
   flex: 1;
@@ -24,6 +37,25 @@
   background-color: #ffffff;
   border-radius: 16px;
   margin-bottom: 16px;
+  padding: 12px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.layouts--main .layouts--main__header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #65676d;
+  transition: transform .3s;
+}
+
+.layouts--main .layouts--main__header img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .layouts--main .layouts--main__content {

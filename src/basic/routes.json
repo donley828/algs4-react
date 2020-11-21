@@ -1,11 +1,13 @@
 {
   "routes": [
     {
-      "title": "首页",
+      "title": "Dashboard",
+      "key": "dashboard",
       "path": "/"
     },
     {
-      "title": "链表",
+      "title": "Linked List",
+      "key": "linked-list",
       "path": "/linked-list"
     }
   ]

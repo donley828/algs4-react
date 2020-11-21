@@ -1,0 +1,22 @@
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 12px;
+}
+
+.menu--item {
+  padding: 12px 0;
+}
+.menu--item.menu--item__selected {
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(253,123,56,0.1558998599439776) 100%);
+  border-right: 3px solid var(--primary-color);
+}
+
+.menu--item a {
+  text-decoration: unset;
+  color: var(--text-color);
+  /*color: var(--primary-color);*/
+  font-weight: 500;
+  font-size: 14px;
+}
