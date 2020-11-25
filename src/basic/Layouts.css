@@ -27,6 +27,14 @@
   font-weight: bold;
 }
 
+.layouts--sidebar .iconfont {
+  font-size: 18px;
+  margin-right: 8px;
+  margin-top: -3px; /* hack vertical center */
+  color: var(--text-color);
+  font-weight: 600;
+}
+
 .layouts .layouts--main {
   margin-left: 16px;
   flex: 1;

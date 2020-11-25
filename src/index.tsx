@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import '@/assets/iconfont/iconfont.css';
+
 import AppRouter from './basic/Router';
 import reportWebVitals from './reportWebVitals';
 

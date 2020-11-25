@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import routers from './routes.json';
 
 import Menu, { MenuItem } from '@/components/Menu';
+import { Icon } from '@/components';
 
 import AuthorLogo from '@/assets/images/author.jpg';
 
@@ -20,6 +21,7 @@ export default function Layouts({ children }: LayoutsProps) {
         <Menu>
           {routes.map((item, key) => (
             <MenuItem key={item.key} value={item.path}>
+              <Icon name="jianshen"></Icon>
               <Link to={item.path}>{item.title}</Link>
             </MenuItem>
           ))}

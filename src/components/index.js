@@ -1,3 +1,4 @@
 import CodeEditor from './CodeEditor';
+import Icon from './Icon';
 
-export { CodeEditor };
+export { CodeEditor, Icon };
