@@ -14,7 +14,7 @@ export function MenuItem({
   children: HTMLElement | ReactNode;
   value: string;
 }) {
-  const handleClick = () => {};
+  const handleClick = (value: string) => {};
   return (
     <Consumer>
       {({ active, setActive }) => (
@@ -22,7 +22,10 @@ export function MenuItem({
           className={`${Styles['menu--item']} ${
             value === active ? Styles['menu--item__selected'] : ''
           }`}
-          onClick={() => setActive(value)}
+          onClick={() => {
+            setActive(value);
+            handleClick(value);
+          }}
         >
           {children}
         </li>
