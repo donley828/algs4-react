@@ -9,6 +9,27 @@
       "title": "Linked List",
       "key": "linked-list",
       "path": "/linked-list"
+    },
+    {
+      "title": "Menu Sub",
+      "key": "menu-sub",
+      "childes": [
+        {
+          "title": "Menu Sub 1",
+          "key": "menu-sub-1",
+          "path": "/menu-sub/menu-sub-1"
+        },
+        {
+          "title": "Menu Sub 2",
+          "key": "menu-sub-2",
+          "path": "/menu-sub/menu-sub-2"
+        },
+        {
+          "title": "Menu Sub 3",
+          "key": "menu-sub-3",
+          "path": "/menu-sub/menu-sub-3"
+        }
+      ]
     }
   ]
 }

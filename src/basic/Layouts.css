@@ -30,7 +30,7 @@
 .layouts--sidebar .iconfont {
   font-size: 18px;
   margin-right: 8px;
-  margin-top: -3px; /* hack vertical center */
+  margin-top: -2px; /* hack vertical center */
   color: var(--text-color);
   font-weight: 600;
 }
